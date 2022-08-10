@@ -1,3 +1,3 @@
 # ApartmanYönetimSistemi
 
-üzerinde çalışılıyor, yakın zamanda Tab Sürüm ve sql dosyası açıklanacak..
+üzerinde çalışılıyor, yakın zamanda Tam Sürüm ve sql dosyası açıklanacak..
