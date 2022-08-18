@@ -59,9 +59,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::ApartmanYönetimSistemi.Properties.Resources.logo_transparent;
-            this.pictureBox1.Location = new System.Drawing.Point(154, -37);
+            this.pictureBox1.Location = new System.Drawing.Point(143, -59);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(574, 323);
+            this.pictureBox1.Size = new System.Drawing.Size(570, 406);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
@@ -116,13 +116,14 @@
             // 
             // btnYoneticiGir
             // 
+            this.btnYoneticiGir.BackColor = System.Drawing.Color.Snow;
             this.btnYoneticiGir.Location = new System.Drawing.Point(104, 58);
             this.btnYoneticiGir.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnYoneticiGir.Name = "btnYoneticiGir";
             this.btnYoneticiGir.Size = new System.Drawing.Size(82, 24);
             this.btnYoneticiGir.TabIndex = 3;
             this.btnYoneticiGir.Text = "Gir";
-            this.btnYoneticiGir.UseVisualStyleBackColor = true;
+            this.btnYoneticiGir.UseVisualStyleBackColor = false;
             this.btnYoneticiGir.Click += new System.EventHandler(this.btnYoneticiGir_Click);
             // 
             // panel3
@@ -175,13 +176,14 @@
             // 
             // btnSakinGir
             // 
+            this.btnSakinGir.BackColor = System.Drawing.Color.Snow;
             this.btnSakinGir.Location = new System.Drawing.Point(104, 58);
             this.btnSakinGir.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSakinGir.Name = "btnSakinGir";
             this.btnSakinGir.Size = new System.Drawing.Size(82, 24);
             this.btnSakinGir.TabIndex = 3;
             this.btnSakinGir.Text = "Gir";
-            this.btnSakinGir.UseVisualStyleBackColor = true;
+            this.btnSakinGir.UseVisualStyleBackColor = false;
             this.btnSakinGir.Click += new System.EventHandler(this.btnSakinGir_Click);
             // 
             // txtAdminPass
@@ -234,52 +236,57 @@
             // 
             // btnAdminGir
             // 
+            this.btnAdminGir.BackColor = System.Drawing.Color.Snow;
             this.btnAdminGir.Location = new System.Drawing.Point(104, 58);
             this.btnAdminGir.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAdminGir.Name = "btnAdminGir";
             this.btnAdminGir.Size = new System.Drawing.Size(82, 24);
             this.btnAdminGir.TabIndex = 3;
             this.btnAdminGir.Text = "Gir";
-            this.btnAdminGir.UseVisualStyleBackColor = true;
+            this.btnAdminGir.UseVisualStyleBackColor = false;
             this.btnAdminGir.Click += new System.EventHandler(this.btnAdminGir_Click);
             // 
             // btnSakin
             // 
+            this.btnSakin.BackColor = System.Drawing.Color.Snow;
             this.btnSakin.Location = new System.Drawing.Point(665, 274);
             this.btnSakin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSakin.Name = "btnSakin";
             this.btnSakin.Size = new System.Drawing.Size(197, 55);
             this.btnSakin.TabIndex = 3;
             this.btnSakin.Text = "Apartman Sakini";
-            this.btnSakin.UseVisualStyleBackColor = true;
+            this.btnSakin.UseVisualStyleBackColor = false;
             this.btnSakin.Click += new System.EventHandler(this.btnSakin_Click);
             // 
             // btnYonetici
             // 
+            this.btnYonetici.BackColor = System.Drawing.Color.Snow;
             this.btnYonetici.Location = new System.Drawing.Point(336, 274);
             this.btnYonetici.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnYonetici.Name = "btnYonetici";
             this.btnYonetici.Size = new System.Drawing.Size(197, 55);
             this.btnYonetici.TabIndex = 2;
             this.btnYonetici.Text = "Yönetici";
-            this.btnYonetici.UseVisualStyleBackColor = true;
+            this.btnYonetici.UseVisualStyleBackColor = false;
             this.btnYonetici.Click += new System.EventHandler(this.btnYonetici_Click);
             // 
             // btnAdmin
             // 
+            this.btnAdmin.BackColor = System.Drawing.Color.Snow;
             this.btnAdmin.Location = new System.Drawing.Point(23, 274);
             this.btnAdmin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAdmin.Name = "btnAdmin";
             this.btnAdmin.Size = new System.Drawing.Size(197, 56);
             this.btnAdmin.TabIndex = 1;
             this.btnAdmin.Text = "Admin";
-            this.btnAdmin.UseVisualStyleBackColor = true;
+            this.btnAdmin.UseVisualStyleBackColor = false;
             this.btnAdmin.Click += new System.EventHandler(this.btnAdmin_Click);
             // 
-            // frmGiris
+            // Giris
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(884, 461);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel3);
@@ -289,7 +296,7 @@
             this.Controls.Add(this.btnAdmin);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "frmGiris";
+            this.Name = "Giris";
             this.Text = "Giriş";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmGiris_FormClosing);
             this.Load += new System.EventHandler(this.frmGiris_Load);

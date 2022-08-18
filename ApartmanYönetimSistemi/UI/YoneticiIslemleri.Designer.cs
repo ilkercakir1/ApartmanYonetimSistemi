@@ -91,6 +91,7 @@
             this.txtIsimDuz = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -105,10 +106,10 @@
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Location = new System.Drawing.Point(12, 12);
+            this.tabControl1.Location = new System.Drawing.Point(12, 36);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(663, 426);
+            this.tabControl1.Size = new System.Drawing.Size(640, 402);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -141,7 +142,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 24);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(655, 398);
+            this.tabPage1.Size = new System.Drawing.Size(632, 374);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Kullanıcı Ekle";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -383,7 +384,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 24);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(655, 398);
+            this.tabPage2.Size = new System.Drawing.Size(632, 374);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Kullanıcı Listesi";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -391,7 +392,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(482, 20);
+            this.label13.Location = new System.Drawing.Point(450, 20);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(45, 15);
             this.label13.TabIndex = 6;
@@ -399,7 +400,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(533, 17);
+            this.textBox1.Location = new System.Drawing.Point(501, 17);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(115, 23);
             this.textBox1.TabIndex = 5;
@@ -407,7 +408,7 @@
             // 
             // btnYetkiDuzenle
             // 
-            this.btnYetkiDuzenle.Location = new System.Drawing.Point(401, 354);
+            this.btnYetkiDuzenle.Location = new System.Drawing.Point(369, 328);
             this.btnYetkiDuzenle.Name = "btnYetkiDuzenle";
             this.btnYetkiDuzenle.Size = new System.Drawing.Size(85, 23);
             this.btnYetkiDuzenle.TabIndex = 4;
@@ -417,7 +418,7 @@
             // 
             // btnKulSil
             // 
-            this.btnKulSil.Location = new System.Drawing.Point(573, 354);
+            this.btnKulSil.Location = new System.Drawing.Point(541, 328);
             this.btnKulSil.Name = "btnKulSil";
             this.btnKulSil.Size = new System.Drawing.Size(75, 23);
             this.btnKulSil.TabIndex = 3;
@@ -427,7 +428,7 @@
             // 
             // btnKulDuzenle
             // 
-            this.btnKulDuzenle.Location = new System.Drawing.Point(492, 354);
+            this.btnKulDuzenle.Location = new System.Drawing.Point(460, 328);
             this.btnKulDuzenle.Name = "btnKulDuzenle";
             this.btnKulDuzenle.Size = new System.Drawing.Size(75, 23);
             this.btnKulDuzenle.TabIndex = 2;
@@ -441,7 +442,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(19, 46);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(629, 287);
+            this.dataGridView1.Size = new System.Drawing.Size(597, 253);
             this.dataGridView1.TabIndex = 3;
             // 
             // tabPage3
@@ -453,7 +454,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 24);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(655, 398);
+            this.tabPage3.Size = new System.Drawing.Size(632, 374);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Yetki İşlemleri";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -527,7 +528,7 @@
             this.tabPage4.Controls.Add(this.label25);
             this.tabPage4.Location = new System.Drawing.Point(4, 24);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(655, 398);
+            this.tabPage4.Size = new System.Drawing.Size(635, 398);
             this.tabPage4.TabIndex = 0;
             this.tabPage4.Text = "Kullanıcı Düzenle";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -733,11 +734,22 @@
             this.label25.TabIndex = 25;
             this.label25.Text = "Tc No:";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(533, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(115, 42);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Geri Dön";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // YoneticiIslemleri
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(687, 450);
+            this.ClientSize = new System.Drawing.Size(664, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.tabControl1);
             this.Name = "YoneticiIslemleri";
             this.Text = "Yönetici İşlemleri";
@@ -822,5 +834,6 @@
         private TextBox txtIsimDuz;
         private Label label24;
         private Label label25;
+        private Button button1;
     }
 }

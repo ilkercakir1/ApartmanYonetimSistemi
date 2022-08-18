@@ -118,52 +118,67 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pinterest_board_photo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pinterest_board_photo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="facebook_cover_photo_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\facebook_cover_photo_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="facebook_cover_photo_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\facebook_cover_photo_21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="facebook_profile_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\facebook_profile_image1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="favicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\favicon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="instagram_profile_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\instagram_profile_image1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="linkedin_banner_image_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\linkedin_banner_image_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="linkedin_banner_image_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\linkedin_banner_image_21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="linkedin_profile_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\linkedin_profile_image1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="logo_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo_transparent1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pinterest_board_photo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pinterest_board_photo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="twitter_header_photo_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\twitter_header_photo_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="youtube_profile_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\youtube_profile_image1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pinterest_profile_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pinterest_profile_image1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="twitter_header_photo_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\twitter_header_photo_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="linkedin_banner_image_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\linkedin_banner_image_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="instagram_profile_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\instagram_profile_image1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menua" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menua.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="linkedin_banner_image_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\linkedin_banner_image_21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="twitter_header_photo_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\twitter_header_photo_21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="facebook_profile_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\facebook_profile_image1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menub1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menub.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="anasayfa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anasayfa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="favicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\favicon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="linkedin_profile_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\linkedin_profile_image1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="twitter_profile_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\twitter_profile_image1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="youtube_profile_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\youtube_profile_image1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="menub" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menub.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="facebook_cover_photo_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\facebook_cover_photo_21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="anasayfa1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anasayfa11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -103,7 +103,7 @@ namespace ApartmanYönetimSistemi.UI
                 dataGridView1.Columns[2].Width = 75;
                 dataGridView1.Columns[3].Width = 62;
                 dataGridView1.Columns[4].Width = 62;
-                dataGridView1.Columns[5].Width = 75;
+                dataGridView1.Columns[5].Width = 40;
                 dataGridView1.Columns[6].Width = 75;
                 dataGridView1.Columns[7].Width = 75;
                 dataGridView1.Columns[10].Width = 80;
@@ -686,6 +686,13 @@ namespace ApartmanYönetimSistemi.UI
         private void tabPage4_Leave(object sender, EventArgs e)
         {
             tabControl1.TabPages.Remove(tabPage4);
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            adminMenu menu = new adminMenu();
+            menu.Show();
+            this.Hide();
         }
     }
 }
